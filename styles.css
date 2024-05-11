@@ -1,6 +1,6 @@
 #main {
     color: rgb(218, 238, 255);
-    font-size: large;
+    font-size: medium;
 }
 
 .spacing-vertical {
@@ -36,6 +36,5 @@ svg {
 }
 
 .bottom {
-    left: 50%;
     text-align: center;
 }
