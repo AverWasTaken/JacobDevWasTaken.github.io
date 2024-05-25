@@ -3,13 +3,16 @@
     font-size: larger;
 }
 
-.spacing-vertical {
-    padding-top: 0.8cm;
+.title {
+    text-align: center;
 }
 
-.spacing-horizontal {
-    padding-left: 0.2cm;
-    display: inline-block;
+.social {
+    float: right;
+}
+
+.spacing-vertical {
+    padding-top: 0.8cm;
 }
 
 .spacing-horizontal-large {
@@ -17,31 +20,38 @@
     display: inline-block;
 }
 
-.nonewline {
-    display: inline-block;
-}
-
 img {
     vertical-align: middle;
-    display: inline-block;
-    margin: 0cm;
+    margin: 0;
 }
 
-svg {
-    height: 30px;
-    width: 30px;
-    display: inline;
-    vertical-align: middle;
-    margin-right: 5px;   
-    fill: black;
+.flags img {
+    margin-left: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-    svg, path {
-        fill: white;
-    }
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.centered {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: black;
 }
 
 .bottom {
     text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .contact-item i {
+        color: white;
+    }
 }
