@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob's website</title>
+    <title>Jacob's Website</title>
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
-        <h3 class="nonewline">Jacob's cool site</h3>
-        <br>
-        <h5 class="nonewline"><a href="index.html">Home</a></h5>
-        <div class="spacing-horizontal-large"></div>
-        <h5 class="nonewline"><a href="socials.html">Socials and contact</a></h5>
+        <h3 class="title">Jacob's Cool Site</h3>
+        <hr>
+        <nav>
+            <a href="index.html" class="home">Home</a>
+            <span class="spacing-horizontal-large"></span>
+            <a href="socials.html" class="social">Socials and Contact</a>
+        </nav>
     </header>
 
-    <div id="main">
-        <h2>
-            Hi, I'm Jacob!
-        </h2>
-        <h5>
-            I'm a 13-year old developer from Sweden
+    <main id="main">
+        <h2>Hi, I'm Jacob!</h2>
+        <p>I'm a 13-year-old developer from Sweden
+            <span class="flags">
+                <img src="/img/flag_eu.png" alt="EU Flag" width="50" height="30">
+                <img src="/img/flag_se.png" alt="Sweden Flag" width="50" height="30">
+            </span>
+        </p>
+        <div class="spacing-vertical"></div>
+        <p>I like:</p>
+        <ul>
+            <li>Coding, mainly in Python <img src="/img/python_logo.png" alt="Python Logo" width="30" height="30"></li>
+            <li>Block games <img src="/img/grass_block.png" alt="Grass Block" width="30" height="30"></li>
+        </ul>
+        <p>You can contact me or check my socials <a href="socials.html">here</a>.</p>
+    </main>
 
-            <img src="/img/flag_eu.png" width="50" height="30">
-            <img src="/img/flag_se.png" width="50" height="30">
-
-            <div class="spacing-vertical"></div>
-            I like:
-            <ul>
-                <li>Coding, mainly in Python <img src="/img/python_logo.png" width="30" height="30"></li>
-                <li>Block games <img src="/img/grass_block.png" width="30" height="30"></li>
-            </ul>
-
-            You can contact me or check my socials <a href="socials.html">here</a>
-        </h5>
-    </div>
-
-    <h6 class="bottom">Made with <a href="https://newcss.net/">new.css</a></h6>
+    <footer>
+        <p class="bottom">© Borstell.dev</a></p>
+    </footer>
 </body>
 </html>
